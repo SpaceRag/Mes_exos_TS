@@ -185,7 +185,7 @@ function exercice_3() {
 
 function exercice_4() {
     const userinfo: { name: string, surname: string, age: number } = { name: 'Marchal', surname: 'Mickeal', age: 19 };
-     if (userinfo.surname === "Mickea" && userinfo.age >= 18) {
+     if (userinfo.surname === "Mickeal" && userinfo.age >= 18) {
         console.log("Mickael n'est pas majeur");
      } else {
         console.log("Mickael n'est pas majeur");
@@ -227,8 +227,8 @@ function exercice_6() {
         { firstName: 'Alice', lastName: 'Williams', age: 22 },
         { firstName: 'Charlie', lastName: 'Brown', age: 38 }
       ];
-      for (const userinfo of myArray) {
-        console.log(`Bonjour mon nom est ${userinfo.lastName} ${userinfo.firstName}, j'ai ${userinfo.age} ans.`);
+      for (const UserTab of myArray) {
+        console.log(`Bonjour mon nom est ${UserTab.lastName} ${UserTab.firstName}, j'ai ${UserTab.age} ans.`);
     }
       
 }
